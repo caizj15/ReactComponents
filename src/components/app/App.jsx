@@ -74,7 +74,7 @@ export default class App extends Component {
                             size="10485760"
                             num="2"
                             value={files}
-                            url="./"
+                            url="http://localhost:8080/dmcs/api/v1/user/image"
                     />
 
                     {/*<button ref="btn" onClick={this.getValue}>获取</button>*/}
